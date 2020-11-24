@@ -1,0 +1,507 @@
+body{
+    margin: 0;
+    font-family:Nunito;
+}
+header{
+    height: 100px;
+    width: 1152px;
+    margin: 0 auto;
+    display: grid;
+	grid-template-columns:270px auto;
+    border:1px solid red;
+	color: rgba(34, 34, 34, 0.75);
+	text-decoration: none;
+	list-style:none;
+}
+header nav{
+	list-style:none;
+}
+header nav ul{
+text-decoration: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+	list-style:none;
+}
+header nav ul li{
+	position:relative;
+	top:20px;
+    font-size: 16px;
+}
+
+header nav ul li a{
+	 color: rgba(34, 34, 34, 0.75);
+	text-decoration: none;
+}
+#flower-bg{
+ position: absolute;
+    top: 320px;
+    right: 300px;
+    z-index: -1;
+}
+#page-bg{
+    width: 390px;
+    height: 770px;
+    background-color: #F9BDBD;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+}
+
+#logo{
+	position:relative;
+	top:30px;
+	left:30px;
+	display:grid;
+	border:1px solid red;
+
+}
+
+#sign-up-button{
+	   border: 1px solid #3E3F43;
+    border-radius: 8px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 20px;
+	top:15 px;
+background-color: transparent;
+color:rgba(34, 34, 34, 0.75);
+text-transform: uppercase;
+
+}
+#home-yellow{
+	
+position: static;
+width: 45px;
+height: 22px;
+left: 0px;
+top: 9px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #DAA520;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 48px 0px;
+}
+section#home{
+	height:650px;
+	width:1152px;
+}
+#are-you{
+	position: absolute;
+width: 504px;
+height: 98px;
+left: 102px;
+top: 100px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 49px;
+color: #3E3F43;
+}
+#this-is{
+	position: absolute;
+width: 504px;
+height: 196px;
+left: 102px;
+top: 200px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 98px;
+color: #313235;
+}
+
+#explore{
+background-color: #DAA520;
+border:1px solid black;
+position: absolute;
+width: 175px;
+height: 50px;
+left: 102px;
+top: 485px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
+#img-home{
+	position: relative;
+width: 568px;
+height: 577px;
+left: 584px;
+top: 0px;
+}
+section#about{
+	width:1152 px;
+	height:800px;
+	
+}
+#logo-about{
+	
+position: absolute;
+width: 30px;
+height: 30px;
+left: 40px;
+top: 0px;
+
+}
+#who-we-are{
+	position: absolute;
+width: 205px;
+height: 49px;
+left: 35px;
+top: -45px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+color: #3E3F43;
+
+}
+#lin-about{
+position: absolute;
+width: 316px;
+height: 0px;
+left: 190px;
+top:10px;
+
+
+border: 1px solid #000000;
+}
+#ABOUT-US{
+	position: absolute;
+width: 379px;
+height: 98px;
+left: 447px;
+top:-90px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 98px;
+text-align: right;
+
+color: rgba(34, 34, 34, 0.1);
+
+}
+#img-glav{
+	
+position: absolute;
+width: 426px;
+height: 388px;
+left: 100px;
+top: 890px;
+
+}
+#img-back{
+	
+position: relative;
+width: 382px;
+height: 382px;
+left: -68px;
+top: 30px;
+z-index:-1;
+}
+#head-about{
+	position: absolute;
+width: 448px;
+height: 98px;
+left: 604px;
+top: 945px;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+color: #3E3F43;
+
+}
+#text-about{
+	position: absolute;
+width: 448px;
+height: 66px;
+left: 604px;
+top: 1055px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+}
+#header-about{
+	position: absolute;
+width: 648px;
+height: 49px;
+left: 102px;
+top: 1318px;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+color: #000000;
+}
+#textt-about{
+	position: absolute;
+width: 648px;
+height: 66px;
+left: 102px;
+top: 1400px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+
+}
+
+#bucutor{
+	position: absolute;
+width: 287px;
+height: 384px;
+left: 899px;
+top: 1190px;
+opacity: 0.4;
+}
+section#how-to{
+	
+}
+
+#logo-about2{
+	position: absolute;
+width: 30px;
+height: 30px;
+left: 40px;
+top: 0px;
+}
+#custom{
+	
+position: absolute;
+width: 254px;
+height: 49px;
+left: 35px;
+top: -45px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+
+color: #3E3F43;
+
+}
+#lin-about2{
+	
+position: absolute;
+width: 65px;
+height: 0px;
+left: 235px;
+top: 10px;
+
+border: 1px solid #000000;
+}
+#works{
+	/* HOW IT WORKS */
+
+
+position: absolute;
+width: 579px;
+height: 98px;
+left: 220px;
+top: -90px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 98px;
+text-align: right;
+
+color: rgba(34, 34, 34, 0.1);
+}
+#shop1{
+	position: relative;
+width: 238px;
+height: 177px;
+left: -159px;
+top: 180px;
+}
+section#how-to nav ul p{
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 131px;
+z-index:-1;
+
+color: rgba(249, 189, 189, 0.75);
+}
+#number1{
+	position: relative;
+width: 58px;
+height: 131px;
+left: -433px;
+top: 165px;
+}
+#ruler1{
+	
+position: absolute;
+width: 130px;
+height: 135px;
+left: -190px;
+top: 200px;
+}
+#number2{
+	position: relative;
+width: 58px;
+height: 131px;
+left: -333px;
+top: 165px;
+}
+#cost1{
+	position: relative;
+width: 123px;
+height: 142px;
+left: -250px;
+top: 190px;
+}
+#number3{
+	position: relative;
+width: 58px;
+height: 131px;
+left: -410px;
+top: 164px;
+z-index:-2;
+
+}
+#carpenter1{
+	position: relative;
+width: 120px;
+height: 120px;
+left: 600px;
+top: -106px;
+}
+#number4{
+	position: relative;
+width: 58px;
+height: 131px;
+left: 320px;
+top: -160px;
+}
+#choose{
+	position: relative;
+width: 238px;
+height: 33px;
+left:150px;
+top: -300px;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+}
+#area{
+position: relative;
+width: 238px;
+height: 33px;
+left: 150px;
+top: -300px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+color: #000000;	
+}
+#budeg{
+	position: relative;
+width: 238px;
+height: 33px;
+left: 660px;
+top: -380px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+}
+#production{
+	position: relative;
+width: 238px;
+height: 33px;
+left: 540px;
+top: -380px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+	  height: 550px;
+    width: 1152px;
+    margin: 0 auto;
+    display: grid;
+  
+    border:1px solid red;
+}
+footer{
+	  height: 100px;
+    width: 1152px;
+    margin: 0 auto;
+    display: grid;
+  
+    border:1px solid red;
+}
