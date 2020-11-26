@@ -3,6 +3,7 @@ body{
     font-family:Nunito;
 }
 header{
+	position: relative;
     height: 100px;
     width: 1152px;
     margin: 0 auto;
@@ -103,6 +104,7 @@ margin: 48px 0px;
 }
 section#home{
 	height:650px;
+	position: relative;
 	width:1152px;
 }
 #are-you{
@@ -152,6 +154,7 @@ left: 584px;
 top: 0px;
 }
 section#about{
+	position: relative;
 	width:1152 px;
 	height:800px;
 	
@@ -163,6 +166,7 @@ width: 30px;
 height: 30px;
 left: 40px;
 top: 0px;
+margin-left:-15%;
 
 }
 #who-we-are{
@@ -212,7 +216,7 @@ position: absolute;
 width: 426px;
 height: 388px;
 left: 100px;
-top: 890px;
+top: 160px;
 
 }
 #img-back{
@@ -229,7 +233,7 @@ z-index:-1;
 width: 448px;
 height: 98px;
 left: 604px;
-top: 945px;
+top: 170px;
 font-size: 36px;
 color: #3E3F43;
 
@@ -239,7 +243,7 @@ color: #3E3F43;
 width: 448px;
 height: 66px;
 left: 604px;
-top: 1055px;
+top: 280px;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -252,7 +256,7 @@ color: #000000;
 width: 648px;
 height: 49px;
 left: 102px;
-top: 1318px;
+top: 525px;
 font-weight: 600;
 font-size: 36px;
 line-height: 49px;
@@ -263,7 +267,7 @@ color: #000000;
 width: 648px;
 height: 66px;
 left: 102px;
-top: 1400px;
+top: 600px;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -276,8 +280,8 @@ color: #000000;
 	position: absolute;
 width: 287px;
 height: 384px;
-left: 899px;
-top: 1190px;
+left: 860px;
+top: 440px;
 opacity: 0.4;
 }
 section#how-to{
@@ -822,7 +826,7 @@ position: absolute;
 width: 352px;
 height: 76px;
 left: 0px;
-top: 40px;
+top: 90px;
 
 font-family: Nunito;
 font-style: normal;
@@ -841,8 +845,8 @@ margin: 0px 16px;
 position: absolute;
 width: 151px;
 height: 32px;
-left: 48px;
-top: 136px;
+left: 75px;
+top: 175px;
 
 font-family: Nunito;
 font-style: normal;
@@ -857,8 +861,8 @@ color: #AFAFAF;
 	position: absolute;
 width: 40px;
 height: 40px;
-left: 0px;
-top: 132px;
+left: 20px;
+top: 182px;
 border-radius: 100px;
 filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.15));
 }
@@ -896,10 +900,10 @@ filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.15));
 
 .rating-area {
 	position: absolute;
-width: 136px;
+width: 210px;
 height: 24px;
 left: 0px;
-top: 0px;
+top: 25px;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -940,37 +944,70 @@ margin: 0px 16px;
 .rate-area > label:active {
 	position: relative;
 }
-footer input#guruweba_example_email{
+
+
+#send{
 	position: absolute;
+width: 120px;
+height: 40px;
+left: 950px;
+top: 77px;
+border:solid#DAA520;
+background: #DAA520;
+border-radius: 4px;
+}
+#pexels-photo{
+position: absolute;
+width: 508px;
+height: 455px;
+right: 0px;
+top: 0px;
+z-index: -1;
+}
+#pexels-photo2{
+	position: absolute;
+	width: 644px;
+	height: 455px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	z-index: -1;
+}
+#text-foter{
+	position: absolute;
+	width: 493px;
+	height: 69px;
+	left: 30px;
+	top: 50px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #000000;
+}
+#guruweba_example_email{
+position: absolute;
 width: 355px;
 height: 40px;
-left: 100px;
-top: 3700px;
+left: 600px;
+top: 77px;
 
 background: #FFFFFF;
 border: 1px solid #DAA520;
 box-sizing: border-box;
 border-radius: 4px;
+
 }
-footer input#send{
+#header-botton{
 	position: absolute;
-width: 150px;
-height: 40px;
-left: 460px;
-top: 3700px;
-
-background: #DAA520;
-border-radius: 4px;
-
+	top: 180px;
 }
 
-
-
-
-
-
-
-
+#header-botton ul{
+	list-style: none;
+	text-decoration: none;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
 
 
 
@@ -983,7 +1020,8 @@ section{
     border:1px solid red;
 }
 footer{
-	  height: 500px;
+	position: relative;
+	  height: 455px;
     width: 1152px;
     margin: 0 auto;
     display: grid;
