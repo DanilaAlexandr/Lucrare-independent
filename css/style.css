@@ -56,17 +56,20 @@ header nav ul li a{
 	left:30px;
 	display:grid;
 	border:1px solid red;
+	margin-right:100px;
 
 }
 
 #sign-up-button{
+	position: absolute;
 	   border: 1px solid #3E3F43;
     border-radius: 8px;
     padding: 5px 25px;
     text-transform: uppercase;
     font-weight: bold;
 	font-size: 20px;
-	top:15 px;
+	top:-10px;
+	right: 40px;
 background-color: transparent;
 color:rgba(34, 34, 34, 0.75);
 text-transform: uppercase;
@@ -227,10 +230,7 @@ width: 448px;
 height: 98px;
 left: 604px;
 top: 945px;
-font-style: normal;
-font-weight: 800;
 font-size: 36px;
-line-height: 49px;
 color: #3E3F43;
 
 }
@@ -253,7 +253,6 @@ width: 648px;
 height: 49px;
 left: 102px;
 top: 1318px;
-font-style: normal;
 font-weight: 600;
 font-size: 36px;
 line-height: 49px;
@@ -451,18 +450,428 @@ width: 238px;
 height: 33px;
 left: 540px;
 top: -380px;
-
 font-family: Nunito;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 33px;
+text-align: center;
+color: #000000;
+}
+
+ section#categorie{
+	 
+ }
+ #logo-about3{
+	 position: absolute;
+width: 30px;
+height: 30px;
+left: 40px;
+top: 0px;
+ }
+ #what-we{
+	 position: relative;
+	width: 243px;
+	height: 49px;
+	left: 80px;
+top: -45px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 49px;
+	color: #3E3F43;
+	 }
+#lin-about3{
+	position: relative;
+width: 202px;
+height: 0px;
+left: 69px;
+top: 10px;
+
+border: 1px solid #000000;
+}
+#categorie1{
+	position: relative;
+width: 454px;
+height: 98px;
+left: 47px;
+top: -90px;
+font-weight: 800;
+font-size: 72px;
+line-height: 98px;
+text-align: right;
+color: rgba(34, 34, 34, 0.1);
+}
+section#categorie{
+	position: relative;
+	width: 1152px;
+	height: 978px;
+}
+#img1color{
+position: absolute;
+width: 280px;
+height: 400px;
+left: 40px;
+top: 110px;
+border-top-right-radius: 125px;
+border-bottom-left-radius: 125px;
+z-index: -1;
+background: #F9BDBD;
+}
+#img1{
+	position: absolute;
+width: 246px;
+height: 224px;
+left: 0px;
+top: 88px;
+}
+#desk{
+	position: absolute;
+width: 57px;
+height: 33px;
+left: 16px;
+top: 24px;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+color: #3E3F43;
+}
+#botton-up1{
+
+position: absolute;
+width: 123px;
+height: 40px;
+left: 141px;
+top: 336px;
+
+background: #F9BDBD;
+border: 1px solid #3E3F43;
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+#img2color{
+	position: absolute;
+width: 280px;
+height: 400px;
+left: 420px;
+top: 110px;
+z-index: -1;
+background: #F7DEA6;
+border-top-right-radius: 125px;
+border-bottom-left-radius: 125px;
+}
+#img2{
+position: absolute;
+width: 165.25px;
+height: 235px;
+left: 57px;
+top: 83px;	
+}
+#Chair{
+	position: absolute;
+width: 60px;
+height: 33px;
+left: 16px;
+top: 24px;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+color: #3E3F43;
+}
+#botton-up2{
+position: absolute;
+width: 123px;
+height: 40px;
+left: 141px;
+top: 336px;
+background: #F7DEA6;
+border: 1px solid #3E3F43;
+box-sizing: border-box;
+border-radius: 4px;
+}
+#img3color{
+position: absolute;
+width: 280px;
+height: 400px;
+left: 790px;
+top: 110px;
+z-index: -1;
+background: #A8DCEC;
+	border-top-right-radius: 125px;
+border-bottom-left-radius: 125px;
+}
+#img3{
+
+position: absolute;
+width: 181.01px;
+height: 200px;
+left: 49px;
+top: 100px;
+
+}
+#botton-up3{
+position: absolute;
+width: 123px;
+height: 40px;
+left: 141px;
+top: 336px;
+
+background: #A8DCEC;
+border: 1px solid #3E3F43;
+box-sizing: border-box;
+border-radius: 4px;
+}
+#Kitchenware{
+position: absolute;
+width: 142px;
+height: 33px;
+left: 16px;
+top: 24px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
 /* identical to box height */
 
-text-align: center;
 
-color: #000000;
+color: #3E3F43;
 
+}
+
+#omg4color{
+
+position: absolute;
+width: 280px;
+height: 400px;
+left: 40px;
+top: 550px;
+z-index: -1;
+background: #F9BDBD;
+border-top-right-radius: 125px;
+border-bottom-left-radius: 125px;
+}
+#img4{
+	position: absolute;
+width: 148.82px;
+height: 235px;
+left: 66px;
+top: 85px;
+
+}
+#botton-up4{
+position: absolute;
+width: 123px;
+height: 40px;
+left: 141px;
+top: 336px;
+
+background: #F9BDBD;
+border: 1px solid #3E3F43;
+box-sizing: border-box;
+border-radius: 4px;
+}
+#BookShelf{
+position: absolute;
+width: 123px;
+height: 33px;
+left: 16px;
+top: 24px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #3E3F43;
+
+}
+#img5color{
+	position: absolute;
+width: 280px;
+height: 400px;
+left: 420px;
+top: 550px;
+z-index: -1;
+background: #F7DEA6;
+border-top-right-radius: 125px;
+border-bottom-left-radius: 125px;
+}
+#img5{
+	position: absolute;
+width: 235px;
+height: 139.12px;
+left: 22px;
+top:122px;
+}
+#botton-up5{
+
+position: absolute;
+width: 123px;
+height: 40px;
+left: 141px;
+top: 336px;
+
+background: #F7DEA6;
+border: 1px solid #3E3F43;
+box-sizing: border-box;
+border-radius: 4px;
+}
+#Electronics{
+	position: absolute;
+width: 123px;
+height: 33px;
+left: 16px;
+top: 24px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+color: #3E3F43;
+
+}
+section#testimony{
+position: relative;
+}
+#logo-about4{
+	position: absolute;
+width: 30px;
+height: 30px;
+left: 40px;
+top: 0px;
+}
+#what-they{
+position: absolute;
+width: 243px;
+height: 49px;
+left: 30px;
+top: -47px;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+
+color: #3E3F43;
+
+
+}
+
+#lin-about4{
+position: absolute;
+width: 240px;
+height: 0px;
+left: 225px;
+top: 10px;
+
+border: 1px solid #000000;
+}
+#TESTIMONY{
+position: absolute;
+width: 416px;
+height: 98px;
+left: 400px;
+top: -98px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 98px;
+text-align: right;
+
+color: rgba(34, 34, 34, 0.1);
+
+}
+
+#imgmobil{
+	position: absolute;
+width: 240px;
+height: 320px;
+left: 36px;
+top: 160px;
+
+}
+#imgmobil2{
+	position: absolute;
+width: 240px;
+height: 320px;
+left: 315px;
+top: 150px;
+}
+#commet{
+	position: absolute;
+width: 384px;
+height: 280px;
+left: 668px;
+top: 157px;
+border-top-right-radius: 80px;
+border-bottom-left-radius: 80px;
+background: #FFFFFF;
+border: 1px solid #A8DCEC;
+box-sizing: border-box;
+}
+#text-commet{
+position: absolute;
+width: 352px;
+height: 76px;
+left: 0px;
+top: 40px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+
+color: #3E3F43;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+#Sandra{
+
+position: absolute;
+width: 151px;
+height: 32px;
+left: 48px;
+top: 136px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+
+color: #AFAFAF;
+
+}
+#avatar{
+	position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 132px;
+border-radius: 100px;
+filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.15));
+}
+.arrow-right{
+	 border: 3 solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transform: rotate(-45deg);
+     width: 100px;
+	 height: 100px;
+	 top:0px
+	 right:0px;
+    -webkit-transform: rotate(-45deg);
 }
 
 
@@ -478,6 +887,82 @@ color: #000000;
 
 
 
+
+
+
+
+
+
+
+.rating-area {
+	position: absolute;
+width: 136px;
+height: 24px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+footer input#guruweba_example_email{
+	position: absolute;
+width: 355px;
+height: 40px;
+left: 100px;
+top: 3700px;
+
+background: #FFFFFF;
+border: 1px solid #DAA520;
+box-sizing: border-box;
+border-radius: 4px;
+}
+footer input#send{
+	position: absolute;
+width: 150px;
+height: 40px;
+left: 460px;
+top: 3700px;
+
+background: #DAA520;
+border-radius: 4px;
+
+}
 
 
 
@@ -498,7 +983,7 @@ section{
     border:1px solid red;
 }
 footer{
-	  height: 100px;
+	  height: 500px;
     width: 1152px;
     margin: 0 auto;
     display: grid;
